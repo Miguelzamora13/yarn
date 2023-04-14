@@ -57,3 +57,15 @@ Yarn wouldn't exist if it wasn't for excellent prior art. Yarn has been inspired
 ## Credits
 
 Thanks to [Sam Holmes](https://github.com/samholmes) for donating the npm package name!
+
+- name: Cache
+  uses: actions/cache@v2.1.8
+  with:
+    # A list of files, directories, and wildcard patterns to cache and restore
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional
+    # The chunk size used to split up large files during upload, in bytes
+    upload-chunk-size: # optional
